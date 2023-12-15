@@ -42,7 +42,7 @@ jobs:
       run: |
         cd docs
         sphinx-build -b html ./source/ ./build/
-        ls
+        ls -la ./build/
     - name: Upload build data
       uses: actions/upload-artifact@v3
       with:
