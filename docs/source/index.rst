@@ -7,12 +7,6 @@ Welcome to teamdocs's documentation!
 ====================================
 
 
-On this page you find the documentation for the GU Orbit software team.
-The documentation contains information about:
-- The Team
-- The Goal
-- The Projects
-- The Development procedures
 
 .. mdinclude:: main.md
 
@@ -21,6 +15,10 @@ The documentation contains information about:
    :caption: Table of contents:
 
    projects/project_tree.rst
+   conventions_and_guidelines/conventions_tree.rst
+   tips_and_recommendations/tips_tree.rst
+
+
 
 
 Indices and tables
