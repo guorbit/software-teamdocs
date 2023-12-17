@@ -1,10 +1,10 @@
 
 On this page you find the documentation for the GU Orbit software team.
 The documentation contains information about:
-- The Team
-- The Goal
-- The Projects
-- The Development procedures
+- The Team 🤝
+- The Goal 🚩
+- The Projects 🏗️
+- The Development procedures 🗺️
 
 ## The Team
 
@@ -17,7 +17,7 @@ Using deep learning we aim to identify common features and patterns, making data
 
 
 Before you start working on the team, familiarise yourself with the documentation of the team you are in the following sections:
-- How to contribute
+- How to contribute 
 - How to communicate
 - How to distribute work
 - How to do code reviews

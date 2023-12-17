@@ -1,8 +1,14 @@
-## Utilities
+## Utilities ⚒️
 
 Library providing common functionality for GU Orbit Software projects, including:
 - Dataloaders
 - Image Manipulation
+
+## Plant Health Monitoring 🌱
+
+## Image Compression 🖼️
+
+## Image Segmentation 🌎 
 
 |Code|Docs|Wiki|
 |---|---|---|

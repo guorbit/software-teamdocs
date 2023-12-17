@@ -1,6 +1,6 @@
 ## Conventions
 
-### Documentation
+### Documentation 📃
 Most of the codebase runs on sphinx-autodoc, which generates documentation from the docstrings in the codebase. The main reason why we use this is so we have an easy to, also most of the time up to date, documentation of all the projects in one place.
 This proviced:
 1. A centralised place for all the documentation
@@ -128,6 +128,3 @@ It is recommended to set your IDEs type checker to basic to help you identify co
 Linting is used to provide a consistent code style across the codebase, and to help identify common problems.
 
 The template repository provides the necessary configuration for linting, and it is recommended to use it.
-
-
-

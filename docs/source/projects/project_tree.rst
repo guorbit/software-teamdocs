@@ -1,5 +1,5 @@
-Projects
-========
+Projects 🏗️
+===========
 For more information see the projects documentation `Here <projects_>`_
 
 Information on how to create new project documentation can be found `Here <project_documentation_>`_
@@ -24,8 +24,3 @@ For more information see the project documentations below:
    :caption: Table of contents:
 
    template/template_tree.rst
-
-
-
-
-   

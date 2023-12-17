@@ -1,5 +1,5 @@
-Conventions and guidelines
-==========================
+Conventions and guidelines 📏
+==============================
 
 .. mdinclude:: conventions.md
 
