@@ -1,0 +1,1 @@
+.. mdinclude:: get_started.md

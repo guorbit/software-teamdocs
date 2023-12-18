@@ -17,6 +17,7 @@ Welcome to teamdocs's documentation!
    projects/project_tree.rst
    conventions_and_guidelines/conventions_tree.rst
    tips_and_recommendations/tips_tree.rst
+   help/help.rst
 
 
 
