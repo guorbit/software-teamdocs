@@ -24,48 +24,47 @@ Anything really that you think is worth documenting. But here are some key point
 ## How to document
 It is fearly simple to do this. And it can be done in only a few steps.
 1. Create a new folder in the `projects` folder.
-
-Under that folder create a new markdown file called `<project>_overview.md`. This file will contain the overview of the project. This is the file that will be displayed on the projects page.
-Secondly create a new rst file called `<project>_tree.rst`. This file will contain the navigation tree for the projects docs.
-The structure if these files is as follows:
-
-```
-Projects/            
-|---project_tree.rst    <--- Tree elements provide the navigation structure for the documentation discoverable by sphinx
-|---project_overview.md <--- Overview of the page/project provides the information about the project
-|---<project>/
-|   |---<project>_overview.md <--- Overview of the project
-|   |---<project>_tree.rst <--- Navigation tree for the project
-|   |---<project>_<somepart>.md    <--- provides some other important information about the project, eg how the team operates
-
-```
-
-The `<project>_tree.rst` file should contain the following:
-```rst
-.. mdinclude:: <project>_overview.md
-```
-
-The `<project>_overview.md` file should contain the following:
-```markdown
-# <Project>
-
-<Project> is a project that does <some description of the project> other blah blah blah
-```
+    Under that folder create a new markdown file called `<project>_overview.md`. This file will contain the overview of the project. This is the file that will be displayed on the projects page.
+    Secondly create a new rst file called `<project>_tree.rst`. This file will contain the navigation tree for the projects docs.
+    The structure if these files is as follows:
+    
+    ```
+    Projects/            
+    |---project_tree.rst    <--- Tree elements provide the navigation structure for the documentation discoverable by sphinx
+    |---project_overview.md <--- Overview of the page/project provides the information about the project
+    |---<project>/
+    |   |---<project>_overview.md <--- Overview of the project
+    |   |---<project>_tree.rst <--- Navigation tree for the project
+    |   |---<project>_<somepart>.md    <--- provides some other important information about the project, eg how the team operates
+    
+    ```
+    
+    The `<project>_tree.rst` file should contain the following:
+    ```rst
+    .. mdinclude:: <project>_overview.md
+    ```
+    
+    The `<project>_overview.md` file should contain the following:
+    ```markdown
+    # <Project>
+    
+    <Project> is a project that does <some description of the project> other blah blah blah
+    ```
 
 2. Populate the projects brief description in the `<project>_overview.md` file
 
 3. Populate the `<project>_tree.rst` file with your projects rst file similarly:
-```rst
-.. _projects:
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Projects:
-
-   utilities/utilities_tree.rst
-   <project>/<project>_tree.rst
-
-```
+    ```rst
+    .. _projects:
+    
+    .. toctree::
+       :maxdepth: 2
+       :caption: Projects:
+    
+       utilities/utilities_tree.rst
+       <project>/<project>_tree.rst
+    
+    ```
 
 You are good to go 🙂
 

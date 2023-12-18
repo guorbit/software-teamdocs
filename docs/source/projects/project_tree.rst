@@ -12,7 +12,7 @@ For more information see the project documentations below:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Table of contents:
+   :caption: Projects:
 
    utilities/utilities_tree.rst
 
