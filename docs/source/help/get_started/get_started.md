@@ -1,4 +1,5 @@
 # Software repository and code template
+*Author: Jan Luca Loettgen*
 
 The purpose of this repository is to provide a template for software development, by the GU orbit software team. This repository serves both as a template for file structure and code and contains various tutorials and guides for how we will develop software.
 
