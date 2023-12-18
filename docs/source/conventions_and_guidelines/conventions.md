@@ -5,9 +5,12 @@ Most of the codebase runs on sphinx-autodoc, which generates documentation from 
 This proviced:
 1. A centralised place for all the documentation
 2. A way to easily understand why certain things are in place
-3. So new people can get up to speed with the project and the team
+3. A way to new people can get up to speed with the project and the team
 
-Template for the documentation generator action can be found below:
+<details>
+<summary> Template for the documentation generator action </summary>
+
+
 ```yaml
 # Simple workflow for deploying static content to GitHub Pages
 name: Deploy Documentation on Pages
@@ -89,16 +92,19 @@ jobs:
           folder: build
 
 ```
-
 The action above can be updated to use other triggers, or to build from a project file.
 
 >**Note:** The action above is a template, available as a tempalte repository (which is strongly encouraged to be used, can be found [here](https://github.com/guorbit/software-template)), however it should be updated to fit the project it is used for.
+
+</details>
+
 
 >**Note:** Modules and packages used in the codebase has to be located inside the `src` folder, otherwise the documentation generator will not be able to find them.
 
 ### Typing
 
-Python typing is used to provide type hints so developers better understand what the code is doing, and to provide better static analysis of the codebase.
+Python typing is used to provide "hints" to developers to better understand what types of object are expected.
+It also helps the IDE identify errors, such as incorrect type passed, incorrect class skeleton etc...
 
 Typing is added to the codebase using the following syntax:
 ```python
