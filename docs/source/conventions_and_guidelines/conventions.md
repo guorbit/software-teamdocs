@@ -45,15 +45,16 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install .[dev]
         pip install -U sphinx
         pip install furo
+        pip install toml
+        pip install sphinx-mdinclude
         
     - name: Build documentation
       run: |
         cd docs
-        sphinx-apidoc -e -M --force -o . ../utilities/
-        make html
+        sphinx-apidoc -e -M --force -o . ../src/
+        sphinx-build -b html ./source/ ./build/
     - name: Upload build data
       uses: actions/upload-artifact@v3
       with:
@@ -91,7 +92,9 @@ jobs:
 
 The action above can be updated to use other triggers, or to build from a project file.
 
->**Note:** The action above is a template, available as a tempalte repository (which is strongly encouraged to be used), however it should be updated to fit the project it is used for.
+>**Note:** The action above is a template, available as a tempalte repository (which is strongly encouraged to be used, can be found [here](https://github.com/guorbit/software-template)), however it should be updated to fit the project it is used for.
+
+>**Note:** Modules and packages used in the codebase has to be located inside the `src` folder, otherwise the documentation generator will not be able to find them.
 
 ### Typing
 
