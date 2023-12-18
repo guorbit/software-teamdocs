@@ -56,14 +56,14 @@ It is fearly simple to do this. And it can be done in only a few steps.
 3. Populate the `<project>_tree.rst` file with your projects rst file similarly:
     ```rst
     .. _projects:
-    
+
     .. toctree::
        :maxdepth: 2
        :caption: Projects:
-    
+
        utilities/utilities_tree.rst
        <project>/<project>_tree.rst
-    
+
     ```
 
 You are good to go 🙂
@@ -76,6 +76,6 @@ This documentation should only contain the following:
 
 >**Note:** It is important to create docstrings for everything you write. This isn't just helpfor for other people but helps you as well when months later you forgot what that piece of code was.
 
-The autodoc pipeline is available the template repository, set for auto deploy on every push to the main branch. Sample code is also provided under the [Conventions and Guidelines](../conventions_and_guidelines/conventions.md) section.
+The autodoc pipeline is available the template repository, set for auto deploy on every push to the main branch. Sample code is also provided under the Conventions and Guidelines section.
 
 Code has to be documented the Sphinx documentation style.
