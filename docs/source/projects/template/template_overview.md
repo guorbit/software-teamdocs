@@ -4,12 +4,13 @@
 It is important to document a project for multiple reasons:
 - One it helps current people better understand the code base and practiceses used in the team
 - But two also helps new people get up to speed with the project and the team
+- Helps you remember what you wrote
 
-## What to document
+## What to document here (teamdocs)
 Anything really that you think is worth documenting. But here are some key points to look out for:
-- How to setup, run the project(this usually included in the README.md of the project)
+
 - How the team operates
-- How to contribute to the project
+- How to work as part of the team
     - How code reviews are done
     - How the team communicates
     - How the team distributes work
@@ -76,6 +77,6 @@ This documentation should only contain the following:
 
 >**Note:** It is important to create docstrings for everything you write. This isn't just helpfor for other people but helps you as well when months later you forgot what that piece of code was.
 
-The autodoc pipeline is available the template repository, set for auto deploy on every push to the main branch.
+The autodoc pipeline is available the template repository, set for auto deploy on every push to the main branch. Sample code is also provided under the [Conventions and Guidelines](../conventions_and_guidelines/conventions.md) section.
 
 Code has to be documented the Sphinx documentation style.
