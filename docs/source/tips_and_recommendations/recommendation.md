@@ -25,3 +25,26 @@ When you work with satellite imagery you usually work with multi/hyperspectral i
 - Sentinel-2 🛰️ dataset (MSI dataset)
 - WHU-OHS 🧊 dataset (HSI Landcover dataset)
 - EnMAP 📡 (HSI dataset, has to be requested)
+
+**Recommended libraries for building and running models:**
+- PyTorch (Lightning ⚡)
+- Tensorflow
+- Huggingface 🤗
+- timm
+
+>**Note:** The top two is preffered
+
+**Recommended libraries for data processing:**
+- Rasterio
+- pillow
+- OpenCV
+
+**Recommended libraries for data visualization:**
+- Matplotlib
+- Seaborn
+- Plotly
+
+**Recommended libraries for logging and tracking experiments:**
+- Tensorboard
+- Weights and Biases
+
