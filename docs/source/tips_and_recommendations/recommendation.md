@@ -31,6 +31,7 @@ When you work with satellite imagery you usually work with multi/hyperspectral i
 - Tensorflow
 - Huggingface 🤗
 - timm
+- mmcv (Huge opensource library for computer vision model development and trainin, very much recommended with torch)
 
 >**Note:** The top two is preffered
 
